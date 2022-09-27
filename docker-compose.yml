@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  flask:
+    build: .
+    entrypoint: ./exec.sh
+    ports:
+      - "80:80"
+    volumes:
+      - .:/opt
+    restart: always
+  mongodb:
+    image : mongo:latest
+    container_name: mongodb
+    volumes:
+    - ./mongodb:/data/db
+    - .:/opt
+    ports:
+    - 27017:27017
+    restart: unless-stopped
+

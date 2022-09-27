@@ -1,0 +1,79 @@
+exi
+db.authors.drop()
+use authors_data
+db.authors.drop()
+exit
+db.authors.drop()
+use authors_data
+exit
+db.channels.drop()
+db.authors.drop()
+show collections
+use authors_data
+use author_data
+show collections
+show dbs
+show collections
+mongoimport -d authors_data -c channels --type csv --file /opt/channel_urls.csv --headerline
+db.channels.drop()
+db.authors.drop()
+db.authors.drop
+show collections
+use authors_data
+show dbs
+show collections
+show colections
+show channels
+show authors_name
+show authors_data
+show authors
+db.channels.drop()
+db.authors.drop()
+db.authors.drop
+show collections
+use authors_data
+db.authors.find({})
+show collections
+use authors_data
+use dbs
+show collections
+show dbs
+show collections
+clr
+mongoimport -d authors_data -c channels --type csv --file channel_urls.csv --headerline 
+mongoimport -d authors_data -c authors --type csv --file final_data.csv --headerline
+show collection
+show collections
+use authors data
+show dbs
+db.channels.find({})
+show collections
+use authors_data
+db.authors.find({"author_name": "Stephen-Evans", "url": "http://independent.co.uk/"}).pretty()
+db.authors.find({}).pretty()
+use authors_data
+exit
+db.authors.drop()
+show collections
+db.authors_data.drop()
+use authors_data
+db.authors_data.drop()
+db.collection.drop('authors_data')
+show dbs
+db.collection.drop('authors_data')
+show dbs
+db.collection.drop('authors')
+db.collection.drops('authors')
+db.drops('authors')
+db.drop('authors')
+db.authors.find({}).pretty()
+show collections
+use authors_data
+show dbs
+db.authors.find().pretty()
+use authors_data
+show databases
+show collections
+help
+show
+show collection
