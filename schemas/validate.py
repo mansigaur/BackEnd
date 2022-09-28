@@ -1,3 +1,4 @@
+#for sending data request
 from marshmallow import Schema, fields
 
 class ValidateRequestSchema(Schema):
