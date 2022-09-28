@@ -8,7 +8,7 @@ from database_repository.channels_repository import ChannelsRepository
 from website_parser.bbcNewsHandler import BBCHandler
 from website_parser.yahooNewsHandler import YahooNewsHandler
 import json 
-
+#to process the data data received from website
 class ValidateAuthorAndUrl(Resource):
     
     @use_args(ValidateRequestSchema, location="json")
