@@ -1,3 +1,4 @@
+#code file for performing functions on authors file in database
 from mongoengine import connect, disconnect
 from database_repository.model.authors import authors 
 
