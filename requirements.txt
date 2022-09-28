@@ -1,4 +1,4 @@
-//oyhton libraries
+//pyhton libraries
 Flask==2.2.2
 Flask-RESTful==0.3.9
 webargs==8.2.0
