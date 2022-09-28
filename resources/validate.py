@@ -1,3 +1,4 @@
+#to process the data received from the websistes
 from unittest import result
 from flask_restful import Resource
 from database_repository.model.channels import channels
